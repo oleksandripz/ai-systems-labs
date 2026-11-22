@@ -1,0 +1,8 @@
+section,model_or_variant,setting,params,metric_name,metric_value,inference_sec
+3_miniGPT,minigpt_v1_ctx64_L4,"ctx=64, emb=128, L=4, H=4",2856000,val_loss,5.5491,
+3_miniGPT,minigpt_v2_ctx128_L6,"ctx=128, emb=192, L=6, H=6",5770688,val_loss,5.0049,
+5_model_comparison,cardiffnlp/twitter-xlm-roberta-base-sentiment-multilingual,default (pos_threshold=0.50),278045955,accuracy / f1,1.0 / 1.0,0.2032
+5_model_comparison,lxyuan/distilbert-base-multilingual-cased-sentiments-student,default (pos_threshold=0.50),135326979,accuracy / f1,1.0 / 1.0,0.1152
+5_tuning,cardiffnlp/twitter-xlm-roberta-base-sentiment-multilingual,pos_threshold=0.60,278045955,accuracy / f1,1.0 / 1.0,
+5_tuning,cardiffnlp/twitter-xlm-roberta-base-sentiment-multilingual,pos_threshold=0.75,278045955,accuracy / f1,1.0 / 1.0,
+5_tuning,cardiffnlp/twitter-xlm-roberta-base-sentiment-multilingual,pos_threshold=0.90,278045955,accuracy / f1,1.0 / 1.0,
